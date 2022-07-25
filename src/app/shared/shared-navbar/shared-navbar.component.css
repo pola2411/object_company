@@ -1,0 +1,14 @@
+.navbar{
+    height: auto;
+    background-color: #282231 !important;
+
+}
+.navbar a{
+    font-weight: bold;
+    padding:15px;
+  font-family:sans-serif;
+  color: white;
+}
+.dropdown-menu{
+    background-color: rgb(107, 127, 153) !important;
+}

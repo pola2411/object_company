@@ -1,0 +1,16 @@
+<div class="container">   
+    <h1>Products</h1>
+    <div class="row ">
+        <div class="col-md-4"*ngFor="let data of alldata">
+        <div class="card" > 
+           <h3 class="card-title">{{data.title}}</h3>
+            <div class="card-body">
+              <img src={{data.img}} class="card-img-top" alt="...">
+              <h5 class="card-text">{{data.description}}</h5>
+              <a href="#" class="btn btn-info">BUY Now</a>
+            </div>
+          </div>
+          
+</div>
+    </div>
+</div>

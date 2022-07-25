@@ -1,0 +1,16 @@
+<div class="card col-md-6">
+    <div class="card-body">
+       <h2>First Name: <span>{{ob.f_name}}</span></h2>
+       <h2>Last Name: <span>{{ob.l_name}}</span></h2>
+       <h2>Age: <span>{{ob.age}}</span></h2>
+       <h2>Salary: <span>{{ob.salary}}</span></h2>
+       <h2>Phone: <span>{{ob.phone}}</span> </h2>
+       
+       <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-info" (click)="back()">Back</button>
+        <button type="button" class="btn btn-warning" routerLink="/employee_update/{{id}}">Edit </button>
+        <button type="button" class="btn btn-danger" (click)="delete()">Delete</button>
+      </div>
+       
+    </div>
+</div>

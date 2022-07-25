@@ -1,0 +1,9 @@
+.card{
+    margin: 150px auto;
+    border: 2px double black;
+    box-shadow: 10px 10px 10px rgb(18, 0, 41);
+    background-color: rgb(232, 221, 246);
+}
+span{
+    color: rgb(132, 120, 103);
+}

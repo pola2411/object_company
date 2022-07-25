@@ -1,0 +1,24 @@
+.container{
+    margin: 120px auto;
+    text-align: center;
+}
+.container .row{
+    justify-content: space-around;
+}
+.card{
+    background-color: darkgray;
+    border-top: 1px double rgb(19, 234, 0);
+    border-left: 1px double rgb(19, 234, 0);
+    box-shadow: 10px 10px 10px black;
+
+}
+label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+h1{
+    color: rgb(8, 3, 31);
+  box-shadow: 10px 10px 10px black;
+  background-color: rgb(210, 206, 218);
+  border-radius: 45px;
+}

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Create Customer</h1>
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">First Name</label>
+                        <input type="text" class="form-control" placeholder="First Name" ngModel #fn="ngModel" required [(ngModel)]="object.f_name">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="fn.touched&&fn.invalid"> please enter your First Name</div>
+                    <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last Name" ngModel #ln="ngModel" required [(ngModel)]="object.l_name">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="ln.touched&&ln.invalid"> please enter your Last Name</div>
+
+                 
+             
+                    <div class="form-group">
+                        <label for="">Phone </label>
+                        <input type="text" class="form-control" placeholder="Phone "ngModel #phone="ngModel" required [(ngModel)]="object.phone">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="phone.touched&&phone.invalid"> please enter your Phone</div>
+
+                    <button class="btn btn-info" (click)="save(fn,ln,phone)">Send Data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

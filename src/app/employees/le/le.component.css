@@ -1,0 +1,15 @@
+   
+
+.card{
+  margin: 130px auto;
+    border-top: 1px double rgb(19, 234, 0);
+    border-left: 1px double rgb(19, 234, 0);
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    background-color: darkgray;
+    
+
+}
+.card .card-body .table td{
+    font-size: 20px;
+}

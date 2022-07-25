@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Update Employee</h1>
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">First Name</label>
+                        <input type="text" class="form-control" ngModel #fn="ngModel" required [(ngModel)]="object.f_name">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="fn.touched&&fn.invalid"> please enter your First Name</div>
+                    <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" ngModel #ln="ngModel" required [(ngModel)]="object.l_name">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="ln.touched&&ln.invalid"> please enter your Last Name</div>
+
+                    <div class="form-group">
+                        <label for="">Age </label>
+                        <input type="number" class="form-control" ngModel #age="ngModel" required [(ngModel)]="object.age">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="age.touched&&age.invalid"> please enter your Age</div>
+
+                    <div class="form-group">
+                        <label for="">Salary </label>
+                        <input type="text" class="form-control" ngModel #salary="ngModel" required [(ngModel)]="object.salary">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="salary.touched&&salary.invalid"> please enter your Salary</div>
+                    <div class="form-group">
+                        <label for="">Phone </label>
+                        <input type="text" class="form-control"ngModel #phone="ngModel" required [(ngModel)]="object.phone">
+                    </div>
+                    <div class="alert alert-danger" *ngIf="phone.touched&&phone.invalid"> please enter your Phone</div>
+
+                    <button class="btn btn-info" (click)="update(fn,ln,age,salary,phone)">Edit Data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
