@@ -18,6 +18,7 @@ import { UcComponent } from './cutomer/uc/uc.component';
 import { ShowcComponent } from './cutomer/showc/showc.component';
 import { ListProductComponent } from './product/list-product/list-product.component';
 import { CreatePrComponent } from './product/create-pr/create-pr.component';
+import { NotfComponent } from './not/notf/notf.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CreatePrComponent } from './product/create-pr/create-pr.component';
     UcComponent,
     ShowcComponent,
     ListProductComponent,
-    CreatePrComponent
+    CreatePrComponent,
+    NotfComponent
   ],
   imports: [
     BrowserModule,

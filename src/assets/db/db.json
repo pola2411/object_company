@@ -1,0 +1,82 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "f_name": "pola",
+      "l_name": "fawzy",
+      "age": 45,
+      "salary": 5000,
+      "phone": "01204016075"
+    },
+    {
+      "f_name": "andrew",
+      "l_name": "basem",
+      "age": 22,
+      "salary": "15000",
+      "phone": "01204016075",
+      "id": 2
+    },
+    {
+      "f_name": "divad",
+      "l_name": "bassem",
+      "age": 55,
+      "salary": "12000",
+      "phone": "01204016055",
+      "id": 3
+    },
+    {
+      "f_name": "dd",
+      "l_name": "dd",
+      "age": 23,
+      "salary": "12155",
+      "phone": "0120401678",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "chair",
+      "img": "../../../assets/img/product/p2.jpg",
+      "description": "th is chair jfafji ijfeifn djvjew"
+    },
+    {
+      "img": "../../../assets/img/product/p6.jpg",
+      "title": "test",
+      "description": "plc sckascp wf",
+      "id": 8
+    },
+    {
+      "title": "w",
+      "img": "../../../assets/img/product/p3.jpg",
+      "description": "we",
+      "id": 9
+    },
+    {
+      "img": "../../../assets/img/product/p1",
+      "title": "pola",
+      "description": "sda",
+      "id": 10
+    },
+    {
+      "title": "cmms",
+      "img": "../../../assets/img/product/p6.jpg",
+      "description": "fa",
+      "id": 11
+    },
+    {
+      "title": "dk",
+      "img": "../../../assets/img/product/p3.jpg",
+      "description": "wer",
+      "id": 12
+    }
+  ],
+  "customer": [
+    {
+      "f_name": "test",
+      "phone": "0221881t",
+      "l_name": "y",
+      "id": 1
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import { LEComponent } from './employees/le/le.component';
 import { ShowmoreComponent } from './employees/showmore/showmore.component';
 import { UEComponent } from './employees/ue/ue.component';
 import { MainHomeComponent } from './home/main-home/main-home.component';
+import { NotfComponent } from './not/notf/notf.component';
 import { CreatePrComponent } from './product/create-pr/create-pr.component';
 import { ListProductComponent } from './product/list-product/list-product.component';
 
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path:"create_customer", component:CcComponent},
   {path:"customer_update/:id", component:UcComponent},
   {path:"list_product", component:ListProductComponent},
-  {path:"create_product", component:CreatePrComponent}
+  {path:"create_product", component:CreatePrComponent},
+  {path:"**", component:NotfComponent}
 
 
   
